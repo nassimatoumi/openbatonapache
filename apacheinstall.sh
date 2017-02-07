@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo apt-get update -y && sudo apt-get upgrade -y
+sudo apt-get update -y
 
 ## Install AMP
 sudo apt-get install apache2 apache2-doc apache2-mpm-prefork apache2-utils libexpat1 -y
