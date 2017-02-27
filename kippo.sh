@@ -1,3 +1,3 @@
 #!/bin/sh
 cd /home/ubuntu/kippo
-su ubuntu & ./start.sh
+sudo -u ubuntu ./start.sh
